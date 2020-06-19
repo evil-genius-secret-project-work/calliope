@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 
-export function App() {
+export function App(): ReactElement {
   return (
     <div className="App">
       <p>App</p>
